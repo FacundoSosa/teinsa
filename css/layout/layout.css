@@ -34,7 +34,8 @@ body {
 
 .hero,
 .work,
-.contact {
+.contact,
+.footer {
     position: relative;
     background-color: var(--blue-color);
 }
@@ -139,5 +140,15 @@ body {
     justify-content: center;
 }
 
-/* ============== CONTACT ============= */
+/* =========== CONTACT ============== */
+
+
+.contact::before {
+    transform: rotateX(180deg);
+}
+
+.contact__container {
+    width: 100%;
+    z-index: 1;
+}
 
