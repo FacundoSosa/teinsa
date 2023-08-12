@@ -93,7 +93,9 @@ body {
 }
 
 .hero__container {
-    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 2em;
 }
 
 
@@ -102,6 +104,7 @@ body {
 
 .services__container {
     display: grid; 
+    justify-content: center;
     gap: 1em;
 }
 
