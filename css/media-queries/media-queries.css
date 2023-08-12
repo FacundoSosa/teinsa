@@ -42,12 +42,6 @@
     
     .carousel__container {
         width: 200%;
-        gap: 1em;
-    }
-
-    .carousel__img {
-        margin: 0%;
-        width: calc(100% / 3);
     }
 
 }
@@ -66,3 +60,4 @@
         padding: 0%;
     }
 }
+

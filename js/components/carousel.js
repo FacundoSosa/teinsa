@@ -2,7 +2,6 @@
 
 const carouselContainer = document.querySelector(".carousel__container");
 const carouselIndicator = document.querySelectorAll(".carousel__indicator");
-console.log(carouselContainer);
 carouselIndicator.forEach((indicator, i) => {
     carouselIndicator[i].addEventListener("click", () => {
         let position = i;
